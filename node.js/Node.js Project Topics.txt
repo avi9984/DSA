@@ -1,0 +1,25 @@
+Node.js Project Topics:- 
+1. Create a COVID-19 Tracker CLI using Node.js
+2. Todo List CLI application using Node.js 
+3. How to create a CLI based calculator app using Node.js ?
+4. How to Build a JavaScript Command Line Interface (CLI) with Node.js
+5. How to build your own CLI (Command Line Interface) with Node.js ?
+6. Email Verification using OTP in NodeJS
+7. How to Deploy Contract From NodeJS using Web3?
+8. Create Newsletter app using MailChimp and NodeJS
+9. How to make to do list using Nodejs ?
+10. Creating a simple JSON based API using Node.js
+11. How to make simple PUT request using fetch API by making custom HTTP library ?
+12. How to build a simple Discord bot using Node.js ?
+13. How to Build a Simple and Scalable Web API using Nest.js and Typescript ?
+14. How the single threaded non blocking IO model works in NodeJS ?
+15. Nodejs | GM solarize() Function
+16. How to kill all processes in NodeJS?
+17. NodeJS process.nextTick() Method.
+18. Dockerizing a simple Node.js app
+19. Node.js Building simple REST API in express.
+20. Build a Simple static file web server in Node.js.
+21. How to Build a Simple Web Server with Node.js ?
+22. Build a Simple Beginner App with Node.js Bootstrap and MongoDB.
+23. How to create a simple server in Node.js that display Hello World ?
+24. How to create a simple http server listening at port 3000 to serve video ?

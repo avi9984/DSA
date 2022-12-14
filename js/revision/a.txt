@@ -1,0 +1,18 @@
+What is javascript and how its work?
+Ans:- javascript is a light-weight, intrepreted programing language. It is scripting language for web pages. javascript is single threaded language.
+
+How its work?
+javascript work on four steps
+step1: parser: parse the code
+step2: AST: if parser is satisfied there is no error then create data structure callled abstract syntax tree(AST).
+step3: conveted to machine code
+step4: machine code
+
+Data types in javascript?
+
+There are two types of data in javascript
+1. Primitive Data types are:
+a.Null, b.Number, c.BigInt, d.Boolean, e. String, f. Symbole, g. undefined
+
+2. Reference or non Primitive data types are:
+a.array, b. object, c. function
