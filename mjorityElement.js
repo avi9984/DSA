@@ -7,12 +7,12 @@ function majorityElement(arr) {
     if (!count) {
       res = arr[i];
       count++;
-      
+
     } else {
-      
-      count += arr[i] === res ? 1 : -1; 
+
+      count += arr[i] === res ? 1 : -1;
     }
   }
   return res;
 }
-console.log(majorityElement([1,13,1,1,1,1]));
+console.log(majorityElement([1, 13, 1, 1, 1, 1]));

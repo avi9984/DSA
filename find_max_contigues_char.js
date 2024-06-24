@@ -1,20 +1,20 @@
 
 function maxContiguesChar(str) {
-    let maxCount = 0;
-     let maxLetter = "";
-     let i = 0;
-     while (i < str.length) {
-       let letter = str[i];
-       let count = 0;
-       while (i < str.length && str[i] === letter) {
-         count++;
-         i++;
-       }
-       if (count > maxCount) {
-         maxCount = count;
-         maxLetter = letter;
-       }
-     }
-     return maxLetter;
+  let maxCount = 0;
+  let maxLetter = "";
+  let i = 0;
+  while (i < str.length) {
+    let letter = str[i];
+    let count = 0;
+    while (i < str.length && str[i] === letter) {
+      count++;
+      i++;
+    }
+    if (count > maxCount) {
+      maxCount = count;
+      maxLetter = letter;
+    }
   }
-  console.log(maxContiguesChar("aabbccccccccccaaddddaaa"))
+  return maxLetter;
+}
+console.log(maxContiguesChar("aabbccccccccccaaddddaaa"))

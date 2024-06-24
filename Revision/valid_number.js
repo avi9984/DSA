@@ -1,10 +1,10 @@
-function isValidNumber(input){
-    let isValid=false;
-    for(let i=0; i<input.length; i++){
-        if(input[i]>='0' && input[i]<='9'){
-            isValid=true;
-        }else{
-            isValid=false;
+function isValidNumber(input) {
+    let isValid = false;
+    for (let i = 0; i < input.length; i++) {
+        if (input[i] >= '0' && input[i] <= '9') {
+            isValid = true;
+        } else {
+            isValid = false;
             break;
         }
     }

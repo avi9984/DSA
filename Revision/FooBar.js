@@ -1,15 +1,15 @@
 // Take a number and if number is multiple of 3 print "Foo", if number is multiple of 5 print "Bar" if number is multiple of 5 and 7 print "FooBar". If not multiple of either print "nothing"
 
 
-function number(n){
+function number(n) {
 
-    if(n %3 ==0){
+    if (n % 3 == 0) {
         console.log("Foo")
-    }else if(n % 5==0 && n%7 !==0){
+    } else if (n % 5 == 0 && n % 7 !== 0) {
         console.log("Bar");
-    }else if(n % 5==0 && n%7==0){
+    } else if (n % 5 == 0 && n % 7 == 0) {
         console.log("FooBar");
-    }else{
+    } else {
         console.log("Nothing")
     }
 }

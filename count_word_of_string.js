@@ -1,10 +1,10 @@
 // JavaScript Program to Check Whether a String is Palindrome or Not
 
 // method1
-function Palindrome(str){
-    let len=str.length;
-    for(let i=0; i<len/2; i++){
-        if(str[i] !==str[len-1-i]){
+function Palindrome(str) {
+    let len = str.length;
+    for (let i = 0; i < len / 2; i++) {
+        if (str[i] !== str[len - 1 - i]) {
             return false
         }
     }
@@ -17,10 +17,10 @@ function Palindrome(str){
 
 // method 2
 
-function isPalindrom(str){
-    let s=0, e=str.length-1;
-    while(s<e){
-        if(str[s] !==str[e]) return false
+function isPalindrom(str) {
+    let s = 0, e = str.length - 1;
+    while (s < e) {
+        if (str[s] !== str[e]) return false
         s++;
         e--;
     }

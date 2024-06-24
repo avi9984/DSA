@@ -7,20 +7,20 @@ function magicalOdd(arr) {
 
     let min = Infinity,
         max = -Infinity;
-    
-    for(let val of arr){
-        if(max < val) max = val;
-        if(!checkOdd(val)){
-            if(min > val) min = val
+
+    for (let val of arr) {
+        if (max < val) max = val;
+        if (!checkOdd(val)) {
+            if (min > val) min = val
         }
     }
 
-    if(min == Infinity || max == Infinity) return false
-    if(checkOdd(max)) return false
-    
-    for(let val of arr){
-        if(checkOdd(val)){
-            if(min < val) return false
+    if (min == Infinity || max == Infinity) return false
+    if (checkOdd(max)) return false
+
+    for (let val of arr) {
+        if (checkOdd(val)) {
+            if (min < val) return false
         }
     }
     return true
