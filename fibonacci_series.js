@@ -1,7 +1,7 @@
 function fibbonaci(num) {
-  let a = 0,
-    b = 1,
-    nextNum;
+  let a = 0;
+  let b = 1;
+  let nextNum;
   for (let i = 0; i <= num; i++) {
     console.log(a);
     nextNum = a + b;
